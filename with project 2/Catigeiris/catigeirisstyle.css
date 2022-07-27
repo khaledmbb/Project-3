@@ -1,0 +1,350 @@
+*{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+*::selection{
+    background-color:rgb(0, 0, 0);
+    color:white;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    background-color: #f8f8f8;
+}
+/* ////////////////// START HEADER //////////// */
+.header{
+    background-image: url(https://viago.ca/wp-content/uploads/2017/09/3-Gobi.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 40%;
+    margin: 0;
+    padding: 0;
+}
+
+.header #logo-about{
+    margin-left: 70px;
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+}
+.header .links-header{
+    margin-top: 40px;
+    margin-right: 70px;
+    float: right;
+    font-size: 21px;
+    font-family: 'Poppins', sans-serif;
+} 
+.header .links-header a{
+    color: #000000;
+    text-decoration: none;
+} 
+.header .links-header a:hover{
+    color: #ffffff;
+    padding-left: 50px;
+} 
+.header .links-header .contact{
+    padding-left: 40px;
+    transition: 0.3s;
+} 
+.header .links-header .about{
+    padding-left: 40px;
+    transition: 0.3s;
+} 
+.header .links-header .categories{
+    padding-left: 40px;
+    transition: 0.3s;
+} 
+.header .links-header .contact{
+    padding-left: 40px;
+    transition: 0.3s;
+} 
+
+
+.header .hh1{
+    margin-top: 190px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Amatic SC', cursive;
+}
+
+/* ///////////////// END HEADER //////////// */
+
+
+
+/* ///////////////// start mean //////////// */
+
+
+.mean .aa1{
+    background-image: url("https://assets.website-files.com/5e4b1929fccc7f96f6de825d/5e4b1929fccc7f4bf8de834b_photo-1416949929422-a1d9c8fe84af.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    text-align: center;
+    padding-top: 110px;
+    transition: 0.3s;
+    border-radius: 3px;
+}
+.mean .hhend{
+    text-align: center;
+    font-size: 47px;
+    font-family: 'Amatic SC', cursive;
+    color: rgb(0, 0, 0);
+    position: relative;
+}
+.mean .hhend::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 267px;
+    background-color: #c37406;
+    height: 2px;
+}
+.mean{
+    padding: 60px 210px;
+}
+.mean .container{
+    display: grid;
+    grid-template: 250px 250px / 1fr 1fr 1fr ;
+    grid-gap: 20px;
+}
+.mean .aa2{
+    background-image: url("https://assets.website-files.com/5e4b1929fccc7f96f6de825d/5e4b1929fccc7f366dde8337_photo-1440558899941-2b58b4b0e6ad.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    text-align: center;
+    padding-top: 110px;
+    transition: 0.3s;
+    border-radius: 3px;
+}
+.mean .aa3{
+    background-image:url(image/aa3.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    text-align: center;
+    padding-top: 110px;
+    transition: 0.3s;
+    border-radius: 3px;
+}
+.mean .aa4{
+    background-image: url("https://assets.website-files.com/5e4b1929fccc7f96f6de825d/5e4b1929fccc7f28dade833e_photo-1436916154952-3aeb6d98001a.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    text-align: center;
+    padding-top: 110px;
+    transition: 0.3s;
+    border-radius: 3px;
+}
+.mean .aa5{
+    background-image: url("https://assets.website-files.com/5e4b1929fccc7f96f6de825d/5e4b1929fccc7f772dde8339_photo-1437846972679-9e6e537be46e.jpg");
+    background-size: cover;
+    background-position: 100% 100%;
+    text-align: center;
+    padding-top: 110px;
+    transition: 0.3s;
+    border-radius: 3px;
+}
+.mean .aa6{
+    background-image: url(https://mymodernmet.com/wp/wp-content/uploads/2019/03/elements-of-art-6.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    text-align: center;
+    padding-top: 110px;
+    transition: 0.3s;
+    border-radius: 3px;
+}                                     
+.mean a{
+    text-decoration: none;
+    font-size: 23px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+
+.mean .aa1:hover{
+    transform: scale(1.1);
+}
+.mean .aa2:hover{
+    transform: scale(1.1);
+}
+.mean .aa3:hover{
+    transform: scale(1.1);
+}
+.mean .aa4:hover{
+    transform: scale(1.1);
+}
+.mean .aa5:hover{
+    transform: scale(1.1);
+}
+.mean .aa6:hover{
+    transform: scale(1.1);
+}
+
+/* ///////////////// end mean //////////// */
+
+/* ////////////////// start footer ///////////////*/
+.footer{
+    position: relative;
+    background-image: linear-gradient(80deg ,#ca9e54 , #7b3b05 ,#181717 );
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    margin-top: 160px;
+    height: 617px;
+}
+.footer .container {
+    padding-bottom:60px;
+    padding-top:60px;
+    padding-left: 170px;
+    padding-right: 170px;
+    display: grid;
+    grid-template: 1fr / 270px 230px auto;
+    grid-gap: 80px;
+}
+.son11 .hh1{
+    font-size: larger;
+    font-size: 70px;
+    font-family: 'Amatic SC', cursive;
+    color: rgb(0, 0, 0);
+}
+.son11 .pp1{
+    font-family: 'Poppins', sans-serif;
+    padding-left: 0px;
+    padding-right: 60px;
+    color: rgb(0, 0, 0);
+}
+
+
+.son22 .hh2{
+    font-size: larger;
+    font-size: 57px;
+    font-family: 'Amatic SC', cursive;
+    color: rgb(0, 0, 0);
+}
+.son22 .pp2{
+    font-family: 'Poppins', sans-serif;
+    padding-left: 0px;
+    padding-right: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.son33 .ii{
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    transition: 0.3s; 
+    color: rgb(0, 0, 0);
+}
+.son33 .tt{
+    border-radius: 10px;
+    margin-top:49px
+}
+.son33 .gg{
+    border-radius:10px ;
+    width: 80px;
+    margin: 15px 70px;  
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    border: 0.1px;
+    transition: 0.3s;
+    color: white;
+    background-color: black;
+}
+.son33 .yy{
+    border-radius:10px ;
+    width: 80px;
+    border: 0.1px;
+    margin: 15px 0px;
+    display: inline;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.3s;
+    color: white;
+    background-color: black;
+}
+.son33 .input1{
+    margin-top: 15px;
+    margin-left: 18px;
+    width: 350px;
+    height: 33px;
+    border-radius: 8px;
+    border: 0.1px;
+    font-family: 'Poppins', sans-serif;
+}
+.son33 .input2{
+    margin-top: 15px;
+    margin-left: 18px;
+    width: 350px;
+    height: 33px;
+    border-radius: 8px;
+    border: 0.1px;
+    font-family: 'Poppins', sans-serif;
+}
+.son33 .input3{
+    margin-top: 15px;
+    margin-left: 18px;
+    width: 350px;
+    height: 33px;
+    border-radius: 8px;
+    border: 0.1px;
+    font-family: 'Poppins', sans-serif;
+}
+.footer:hover .ii{ 
+    font-size: 40px;
+}
+.son33 .gg:hover{
+    transform: scale(1.2);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.son33 .yy:hover{
+    transform: scale(1.2);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.son33 a{
+    color: rgb(0, 0, 0);
+    margin-left: 30px;
+}
+.son33 #ii1{
+    margin-top: 70px;
+    margin-right: 20px; 
+    transition: 0.6s;
+}
+.son33 #ii2{
+    margin-top: 70px;
+    margin-right: 20px;
+    transition: 0.6s;
+ 
+}
+.son33 #ii3{
+    margin-top: 70px;
+    margin-right: 20px; 
+    transition: 0.6s;
+
+}
+.son33 #ii4{
+    margin-top: 20px;
+    transition: 0.6s;
+
+}
+.son33 #ii1:hover{
+    transform: scale(1.4) rotate(360deg);
+}
+.son33 #ii2:hover{
+    transform: scale(1.4) rotate(360deg);
+}
+.son33 #ii3:hover{
+    transform: scale(1.4) rotate(360deg);
+}
+.son33 #ii4:hover{
+    transform: scale(1.4) rotate(360deg);
+}
+
+
+.fin .right{
+    position: absolute;
+    right: 25px;
+    bottom: 13px;
+    font-family: 'Caveat', cursive;
+    color: rgb(0, 0, 0);
+}
+/* ////////////////// end footer ///////////////*/
